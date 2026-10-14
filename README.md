@@ -1,49 +1,54 @@
 # Developer Portfolio
 
-## Live Demo / Deployment URL
+[![GitHub](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/portfolio) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/portfolio)](https://github.com/kandisaikishore/portfolio/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+A personal developer portfolio built as a web page to introduce the developer, highlight technical skills and selected projects, and make professional contact information easy to find. The main entry page is `index.html`.
 
+## What this project is for
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/portfolio) [![Issues](https://img.shields.io/github/issues/saikishore2410/portfolio)](https://github.com/saikishore2410/portfolio/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/portfolio)](https://github.com/saikishore2410/portfolio/commits/main)
+- Present a clear developer introduction and technical focus
+- Showcase selected projects and their source links
+- Help visitors explore skills and project experience
+- Provide an easy path to professional contact information
 
-> A personal portfolio website for presenting software projects, technical skills, and professional background in one place.
+## Technology and structure
 
-## At a glance
+The repository includes a static HTML entry page and a `portfolio/` directory. Review the current assets and markup to confirm the specific styling and interactive features included in this version.
 
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-A personal portfolio website for presenting software projects, technical skills, and professional background in one place.
-
-## What a portfolio should communicate
-
-- A concise introduction and development focus
-- Selected projects with their problem statements and key features
-- Technology choices and your specific contribution
-- Live demo and source links where available
-- Professional contact links that you are comfortable sharing publicly
+```text
+portfolio/
+├── index.html
+├── portfolio/
+├── README.md
+└── QA_EXECUTION.md
+```
 
 ## Run locally
 
+Clone the repository and open `index.html` in a modern browser:
+
 ```bash
-git clone https://github.com/saikishore2410/portfolio.git
+git clone https://github.com/kandisaikishore/portfolio.git
 cd portfolio
 ```
 
-Follow the framework-specific setup steps. For an npm-based front end, use the scripts defined in `package.json`, for example `npm install` and `npm run dev` when available.
+You can open the page directly, or serve the folder with a local static web server. A public deployment URL has not been verified in this README; use a confirmed live URL only after testing the deployment.
 
 ## Before publishing
 
-- Check mobile responsiveness and keyboard accessibility
-- Verify every demo and repository link
-- Avoid publishing private information or credentials
-- Keep project claims accurate and current
+- Test layout at mobile, tablet, and desktop sizes
+- Check keyboard navigation, contrast, and accessible labels
+- Verify project, social, and contact links
+- Keep descriptions, project status, and claims accurate
+- Do not expose secrets or private personal information
+
+## Future improvements
+
+- Add project cards with clear problem statements and technology details
+- Include screenshots or live demos when available
+- Add automated link and accessibility checks
+- Keep the portfolio content synchronized with current projects
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define reuse terms.
+No license file is currently declared. Add a `LICENSE` file if you intend to define reuse terms.
